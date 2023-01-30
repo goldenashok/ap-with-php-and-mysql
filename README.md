@@ -11,8 +11,8 @@
 | --- | --- | --- | --- | --- |
 
 
-Delete Response
-{
+###Delete Response
+```{
     "status": "success",
     "msg": "Search list",
     "data": [
@@ -23,4 +23,4 @@ Delete Response
             "city": "Bhopal"
         }
     ]
-}
+}```
