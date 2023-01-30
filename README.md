@@ -7,7 +7,8 @@
 |3 | http://localhost/web/rest-api/insert-student.php | POST | {"sname": "Ashok",	"sage": "33",	"scity": "chennai" } | |
 |4 | http://localhost/web/rest-api/update-student.php | POST | {'sid': 2, "sname": "Ashok",	"sage": "33",	"scity": "chennai" } | |
 |5 | http://localhost/web/rest-api/delete-student.php | POST | {'sid': 2} | |
-|6 | http://localhost/web/rest-api/search-student.php | POST | {'search': "sub"} |{
+|6 | http://localhost/web/rest-api/search-student.php | POST | {'search': "sub"} | 
+    {
     "status": "success",
     "msg": "Search list",
     "data": [
@@ -18,5 +19,5 @@
             "city": "Bhopal"
         }
     ]
-} |
+    } |
 | --- | --- | --- | --- | --- |
