@@ -12,6 +12,7 @@
 
 
 ## Delete Response
+```sh
 {
     "status": "success",
     "msg": "Search list",
@@ -24,3 +25,4 @@
         }
     ]
 }
+```
